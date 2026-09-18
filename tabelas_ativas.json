@@ -1,92 +1,7 @@
 [
  {
-  "tabela": "tuss-18",
-  "descricao": "Diárias, taxas e gases medicinais",
-  "filtro": null
- },
- {
-  "tabela": "tuss-19",
-  "descricao": "Materiais, Órteses, Próteses e Materiais Especiais (OPME)",
-  "filtro": null
- },
- {
-  "tabela": "tuss-20",
-  "descricao": "Medicamentos",
-  "filtro": null
- },
- {
-  "tabela": "tuss-22",
-  "descricao": "Procedimentos em saúde",
-  "filtro": null
- },
- {
   "tabela": "tuss-23",
   "descricao": "Carater do atendimento",
-  "filtro": null
- },
- {
-  "tabela": "tuss-24",
-  "descricao": "Código Brasileiro de Ocupação (CBO)",
-  "filtro": null
- },
- {
-  "tabela": "tuss-25",
-  "descricao": "Código de despesa",
-  "filtro": null
- },
- {
-  "tabela": "tuss-26",
-  "descricao": "Conselho Profissional",
-  "filtro": null
- },
- {
-  "tabela": "tuss-27",
-  "descricao": "Débitos e Créditos",
-  "filtro": null
- },
- {
-  "tabela": "tuss-28",
-  "descricao": "Dentes",
-  "filtro": null
- },
- {
-  "tabela": "tuss-29",
-  "descricao": "Diagnóstico por imagem",
-  "filtro": null
- },
- {
-  "tabela": "tuss-30",
-  "descricao": "Escala de capacidade funcional (ECOG - Escala de Zubrod)",
-  "filtro": null
- },
- {
-  "tabela": "tuss-31",
-  "descricao": "Estadiamento do tumor",
-  "filtro": null
- },
- {
-  "tabela": "tuss-32",
-  "descricao": "Faces do dente",
-  "filtro": null
- },
- {
-  "tabela": "tuss-33",
-  "descricao": "Finalidade do tratamento",
-  "filtro": null
- },
- {
-  "tabela": "tuss-34",
-  "descricao": "Forma de pagamento",
-  "filtro": null
- },
- {
-  "tabela": "tuss-35",
-  "descricao": "Grau de participação",
-  "filtro": null
- },
- {
-  "tabela": "tuss-36",
-  "descricao": "Indicador de acidente",
   "filtro": null
  },
  {
@@ -95,168 +10,8 @@
   "filtro": null
  },
  {
-  "tabela": "tuss-38",
-  "descricao": "Mensagens (glosas, negativas e outras)",
-  "filtro": null
- },
- {
-  "tabela": "tuss-39",
-  "descricao": "Motivo de encerramento",
-  "filtro": null
- },
- {
-  "tabela": "tuss-40",
-  "descricao": "Origem da guia",
-  "filtro": null
- },
- {
-  "tabela": "tuss-41",
-  "descricao": "Regime de internação",
-  "filtro": null
- },
- {
-  "tabela": "tuss-42",
-  "descricao": "Regiões da boca",
-  "filtro": null
- },
- {
   "tabela": "tuss-43",
   "descricao": "Sexo",
-  "filtro": null
- },
- {
-  "tabela": "tuss-44",
-  "descricao": "Situação dentária inicial",
-  "filtro": null
- },
- {
-  "tabela": "tuss-45",
-  "descricao": "Status da solicitação",
-  "filtro": null
- },
- {
-  "tabela": "tuss-46",
-  "descricao": "Status do cancelamento",
-  "filtro": null
- },
- {
-  "tabela": "tuss-47",
-  "descricao": "Status da guia e do protocolo",
-  "filtro": null
- },
- {
-  "tabela": "tuss-48",
-  "descricao": "Técnica utilizada",
-  "filtro": null
- },
- {
-  "tabela": "tuss-49",
-  "descricao": "Tipo de acomodação",
-  "filtro": null
- },
- {
-  "tabela": "tuss-50",
-  "descricao": "Tipo de atendimento",
-  "filtro": null
- },
- {
-  "tabela": "tuss-51",
-  "descricao": "Tipo de atendimento em odontologia",
-  "filtro": null
- },
- {
-  "tabela": "tuss-52",
-  "descricao": "Tipo de consulta",
-  "filtro": null
- },
- {
-  "tabela": "tuss-53",
-  "descricao": "Tipo de demonstrativo",
-  "filtro": null
- },
- {
-  "tabela": "tuss-54",
-  "descricao": "Tipo de guia",
-  "filtro": null
- },
- {
-  "tabela": "tuss-55",
-  "descricao": "Tipo de faturamento",
-  "filtro": null
- },
- {
-  "tabela": "tuss-56",
-  "descricao": "Natureza da guia",
-  "filtro": null
- },
- {
-  "tabela": "tuss-57",
-  "descricao": "Tipo de internação",
-  "filtro": null
- },
- {
-  "tabela": "tuss-58",
-  "descricao": "Tipo de quimioterapia",
-  "filtro": null
- },
- {
-  "tabela": "tuss-59",
-  "descricao": "Unidade da federação",
-  "filtro": null
- },
- {
-  "tabela": "tuss-60",
-  "descricao": "Unidade de medida",
-  "filtro": null
- },
- {
-  "tabela": "tuss-61",
-  "descricao": "Via de acesso",
-  "filtro": null
- },
- {
-  "tabela": "tuss-62",
-  "descricao": "Via de administração",
-  "filtro": null
- },
- {
-  "tabela": "tuss-63",
-  "descricao": "Grupos de procedimentos e itens assistenciais para envio para ANS",
-  "filtro": null
- },
- {
-  "tabela": "tuss-64",
-  "descricao": "Forma de envio de procedimentos e itens assistenciais para ANS",
-  "filtro": null
- },
- {
-  "tabela": "tuss-65",
-  "descricao": "Metástase",
-  "filtro": null
- },
- {
-  "tabela": "tuss-66",
-  "descricao": "Nódulo",
-  "filtro": null
- },
- {
-  "tabela": "tuss-67",
-  "descricao": "Tumor",
-  "filtro": null
- },
- {
-  "tabela": "tuss-68",
-  "descricao": "Categoria de despesa",
-  "filtro": null
- },
- {
-  "tabela": "tuss-69",
-  "descricao": "Versão do componente de comunicação do padrão",
-  "filtro": null
- },
- {
-  "tabela": "tuss-70",
-  "descricao": "Forma de envio de padrão",
   "filtro": null
  },
  {
@@ -265,33 +20,8 @@
   "filtro": null
  },
  {
-  "tabela": "tuss-72",
-  "descricao": "Tipo de identificação do beneficiário",
-  "filtro": null
- },
- {
   "tabela": "tuss-73",
   "descricao": "Etapas de autorização",
-  "filtro": null
- },
- {
-  "tabela": "tuss-74",
-  "descricao": "Motivos de ausência do código de validação",
-  "filtro": null
- },
- {
-  "tabela": "tuss-75",
-  "descricao": "Cobertura especial",
-  "filtro": null
- },
- {
-  "tabela": "tuss-76",
-  "descricao": "Regime de atendimento",
-  "filtro": null
- },
- {
-  "tabela": "tuss-77",
-  "descricao": "Saúde ocupacional",
   "filtro": null
  },
  {
@@ -300,13 +30,198 @@
   "filtro": null
  },
  {
+  "tabela": "tuss-41",
+  "descricao": "Regime de internação",
+  "filtro": null
+ },
+ {
+  "tabela": "tuss-48",
+  "descricao": "Técnica utilizada",
+  "filtro": null
+ },
+ {
+  "tabela": "tuss-53",
+  "descricao": "Tipo de demonstrativo",
+  "filtro": null
+ },
+ {
+  "tabela": "tuss-56",
+  "descricao": "Natureza da guia",
+  "filtro": null
+ },
+ {
+  "tabela": "tuss-61",
+  "descricao": "Via de acesso",
+  "filtro": null
+ },
+ {
+  "tabela": "tuss-75",
+  "descricao": "Cobertura especial",
+  "filtro": null
+ },
+ {
+  "tabela": "tuss-34",
+  "descricao": "Forma de pagamento",
+  "filtro": null
+ },
+ {
+  "tabela": "tuss-36",
+  "descricao": "Indicador de acidente",
+  "filtro": null
+ },
+ {
+  "tabela": "tuss-52",
+  "descricao": "Tipo de consulta",
+  "filtro": null
+ },
+ {
+  "tabela": "tuss-55",
+  "descricao": "Tipo de faturamento",
+  "filtro": null
+ },
+ {
+  "tabela": "tuss-58",
+  "descricao": "Tipo de quimioterapia",
+  "filtro": null
+ },
+ {
+  "tabela": "tuss-70",
+  "descricao": "Forma de envio de padrão",
+  "filtro": null
+ },
+ {
+  "tabela": "tuss-30",
+  "descricao": "Escala de capacidade funcional (ECOG - Escala de Zubrod)",
+  "filtro": null
+ },
+ {
+  "tabela": "tuss-33",
+  "descricao": "Finalidade do tratamento",
+  "filtro": null
+ },
+ {
+  "tabela": "tuss-40",
+  "descricao": "Origem da guia",
+  "filtro": null
+ },
+ {
+  "tabela": "tuss-44",
+  "descricao": "Situação dentária inicial",
+  "filtro": null
+ },
+ {
+  "tabela": "tuss-54",
+  "descricao": "Tipo de guia",
+  "filtro": null
+ },
+ {
+  "tabela": "tuss-57",
+  "descricao": "Tipo de internação",
+  "filtro": null
+ },
+ {
+  "tabela": "tuss-65",
+  "descricao": "Metástase",
+  "filtro": null
+ },
+ {
+  "tabela": "tuss-68",
+  "descricao": "Categoria de despesa",
+  "filtro": null
+ },
+ {
+  "tabela": "tuss-76",
+  "descricao": "Regime de atendimento",
+  "filtro": null
+ },
+ {
+  "tabela": "tuss-25",
+  "descricao": "Código de despesa",
+  "filtro": null
+ },
+ {
+  "tabela": "tuss-29",
+  "descricao": "Diagnóstico por imagem",
+  "filtro": null
+ },
+ {
+  "tabela": "tuss-31",
+  "descricao": "Estadiamento do tumor",
+  "filtro": null
+ },
+ {
+  "tabela": "tuss-46",
+  "descricao": "Status do cancelamento",
+  "filtro": null
+ },
+ {
+  "tabela": "tuss-77",
+  "descricao": "Saúde ocupacional",
+  "filtro": null
+ },
+ {
+  "tabela": "tuss-32",
+  "descricao": "Faces do dente",
+  "filtro": null
+ },
+ {
+  "tabela": "tuss-45",
+  "descricao": "Status da solicitação",
+  "filtro": null
+ },
+ {
+  "tabela": "tuss-66",
+  "descricao": "Nódulo",
+  "filtro": null
+ },
+ {
+  "tabela": "tuss-74",
+  "descricao": "Motivos de ausência do código de validação",
+  "filtro": null
+ },
+ {
   "tabela": "tuss-79",
   "descricao": "Modelos de Remuneração entre Operadoras e Prestadores",
   "filtro": null
  },
  {
+  "tabela": "tuss-27",
+  "descricao": "Débitos e Créditos",
+  "filtro": null
+ },
+ {
+  "tabela": "tuss-50",
+  "descricao": "Tipo de atendimento",
+  "filtro": null
+ },
+ {
+  "tabela": "tuss-67",
+  "descricao": "Tumor",
+  "filtro": null
+ },
+ {
+  "tabela": "tuss-72",
+  "descricao": "Tipo de identificação do beneficiário",
+  "filtro": null
+ },
+ {
   "tabela": "tuss-80",
   "descricao": "Formato do documento",
+  "filtro": null
+ },
+ {
+  "tabela": "tuss-47",
+  "descricao": "Status da guia e do protocolo",
+  "filtro": null
+ },
+ {
+  "tabela": "tuss-35",
+  "descricao": "Grau de participação",
+  "filtro": null
+ },
+ {
+  "tabela": "tuss-26",
+  "descricao": "Conselho Profissional",
   "filtro": null
  },
  {
@@ -320,8 +235,88 @@
   "filtro": null
  },
  {
+  "tabela": "tuss-69",
+  "descricao": "Versão do componente de comunicação do padrão",
+  "filtro": null
+ },
+ {
+  "tabela": "tuss-39",
+  "descricao": "Motivo de encerramento",
+  "filtro": null
+ },
+ {
+  "tabela": "tuss-59",
+  "descricao": "Unidade da federação",
+  "filtro": null
+ },
+ {
+  "tabela": "tuss-63",
+  "descricao": "Grupos de procedimentos e itens assistenciais para envio para ANS",
+  "filtro": null
+ },
+ {
+  "tabela": "tuss-62",
+  "descricao": "Via de administração",
+  "filtro": null
+ },
+ {
+  "tabela": "tuss-49",
+  "descricao": "Tipo de acomodação",
+  "filtro": null
+ },
+ {
+  "tabela": "tuss-28",
+  "descricao": "Dentes",
+  "filtro": null
+ },
+ {
+  "tabela": "tuss-42",
+  "descricao": "Regiões da boca",
+  "filtro": null
+ },
+ {
+  "tabela": "tuss-60",
+  "descricao": "Unidade de medida",
+  "filtro": null
+ },
+ {
   "tabela": "tuss-87",
   "descricao": "Tabelas de domínio",
+  "filtro": null
+ },
+ {
+  "tabela": "tuss-24",
+  "descricao": "Código Brasileiro de Ocupação (CBO)",
+  "filtro": null
+ },
+ {
+  "tabela": "tuss-38",
+  "descricao": "Mensagens (glosas, negativas e outras)",
+  "filtro": null
+ },
+ {
+  "tabela": "tuss-18",
+  "descricao": "Diárias, taxas e gases medicinais",
+  "filtro": null
+ },
+ {
+  "tabela": "tuss-22",
+  "descricao": "Procedimentos em saúde",
+  "filtro": null
+ },
+ {
+  "tabela": "tuss-20",
+  "descricao": "Medicamentos",
+  "filtro": null
+ },
+ {
+  "tabela": "tuss-19",
+  "descricao": "Materiais, Órteses, Próteses e Materiais Especiais (OPME)",
+  "filtro": null
+ },
+ {
+  "tabela": "tuss-64",
+  "descricao": "Forma de envio de procedimentos e itens assistenciais para ANS",
   "filtro": null
  }
 ]
