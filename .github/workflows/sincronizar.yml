@@ -4,8 +4,8 @@ on:
   workflow_dispatch:
     inputs:
       tabela:
-        description: 'Codigo da tabela na ANS (ex.: tuss-19)'
-        required: true
+        description: 'Codigo de UMA tabela (ex.: tuss-19). Deixe em branco se marcar "retomar_todas_ativas" abaixo.'
+        required: false
       descricao:
         description: 'Descricao da tabela (opcional, so para o titulo/notas do release)'
         required: false
@@ -14,6 +14,10 @@ on:
         required: false
       recomecar:
         description: 'Ignorar progresso salvo e comecar do zero (true/false)'
+        required: false
+        default: 'false'
+      retomar_todas_ativas:
+        description: 'Ignorar o campo "tabela" e processar TODAS as tabelas de tabelas_ativas.json (mesma logica do agendamento)'
         required: false
         default: 'false'
   schedule:
@@ -39,8 +43,8 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Disparo manual — sincroniza a tabela pedida
-        if: github.event_name == 'workflow_dispatch'
+      - name: Disparo manual — UMA tabela especifica
+        if: github.event_name == 'workflow_dispatch' && inputs.retomar_todas_ativas != 'true'
         env:
           GH_TOKEN: ${{ github.token }}
           IN_TABELA: ${{ inputs.tabela }}
@@ -48,6 +52,7 @@ jobs:
           IN_FILTRO: ${{ inputs.filtro }}
           IN_RECOMECAR: ${{ inputs.recomecar }}
         run: |
+          if [ -z "$IN_TABELA" ]; then echo "campo 'tabela' vazio e 'retomar_todas_ativas' nao marcado -- nada a fazer."; exit 1; fi
           python gerenciar_lista.py adicionar --tabela "$IN_TABELA" --descricao "$IN_DESCRICAO" --filtro "$IN_FILTRO"
           ARGS=(--tabela "$IN_TABELA" --tempo-max-s 19200)
           if [ -n "$IN_DESCRICAO" ]; then ARGS+=(--descricao "$IN_DESCRICAO"); fi
@@ -55,8 +60,8 @@ jobs:
           if [ "$IN_RECOMECAR" = "true" ]; then ARGS+=(--recomecar); fi
           python sync_ci.py "${ARGS[@]}"
 
-      - name: Disparo agendado — retoma tabelas ainda incompletas
-        if: github.event_name == 'schedule'
+      - name: Disparo manual ou agendado — retoma TODAS as tabelas ativas
+        if: github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && inputs.retomar_todas_ativas == 'true')
         env:
           GH_TOKEN: ${{ github.token }}
         run: python retomar_agendado.py
